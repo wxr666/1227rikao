@@ -1,0 +1,85 @@
+/*
+* @Author: Marte
+* @Date:   2017-12-27 09:10:41
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-12-27 09:37:12
+*/
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 62.5%; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .wrap header {
+    width: 100%;
+    height: 1.5rem;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; }
+    .wrap header p {
+      font-size: 0.4rem; }
+    .wrap header i {
+      font-size: 0.5rem;
+      width: 20%;
+      text-align: center; }
+  .wrap section {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    flex: 1; }
+    .wrap section .box {
+      margin-left: 10%;
+      margin-top: 10%;
+      width: 80%;
+      height: 80%;
+      background: white;
+      border-radius: 10px; }
+      .wrap section .box p:nth-child(2) {
+        width: 80%;
+        height: 2rem;
+        line-height: 2rem;
+        border-bottom: none;
+        font-size: 0.6rem; }
+      .wrap section .box p {
+        width: 80%;
+        margin-left: 10%;
+        height: 1rem;
+        border-bottom: 1px solid #ccc; }
+        .wrap section .box p > img {
+          width: 7%;
+          margin-top: 0.2rem;
+          margin-right: 0.2rem; }
+        .wrap section .box p input {
+          outline: none;
+          border: none; }
+      .wrap section .box > img {
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 20%; }
+      .wrap section .box button {
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 80%;
+        height: 0.8rem;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background: green;
+        color: white; }
+
+/*# sourceMappingURL=style.css.map */
